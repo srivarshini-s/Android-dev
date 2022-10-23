@@ -68,6 +68,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         eraser.setOnClickListener{
+            
             Toast.makeText(this,"Clicked",Toast.LENGTH_SHORT).show()
             pathList.clear()
             colorList.clear()

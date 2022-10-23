@@ -64,6 +64,7 @@ class PaintView : View{
     }
 
     override fun onDraw(canvas: Canvas) {
+
         for(i in pathList.indices) {
             paintBrush.setColor(colorList[i])
             canvas.drawPath(pathList[i], paintBrush)
